@@ -1,0 +1,29 @@
+					a++;
+				}
+				else
+				{
+					cout<<"Parking is full\n";
+					break;
+				}
+				cout<<"If you want to park more car press 1"<<endl;
+				cin>>b;
+			}while(b==1);
+				break;
+			  
+		    
+			 break;	
+			 case 3:
+			 	q.depature();
+			 	break;
+			 case 4:
+			 	q.display();
+		
+			  
+			  break;	
+	
+		}
+			cout<<"enter 1 to continue:"<<endl;
+		cin>>c;
+	
+	}while(c==1);
+}
